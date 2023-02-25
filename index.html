@@ -1,0 +1,50 @@
+<!DOCTYPE html>  
+  <html>  
+  <head>  
+    <meta charset="utf-8">
+    <title>Let's Create an ID card!</title>  
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>  
+
+  <body>    
+	
+  <h1>Let's Create an ID card!</h1>
+
+  <div class="notice">
+  <h3>PLEASE NOTE:</h3>
+  <h5>No information is sent over the internet. <br> This is strictly for demonstration purposes only.</h5></div>
+
+<!---------------FINAL PROJECT FORM------------------------>
+	<form>
+	First Name: <br><input id="firstName" type="text" /><br>
+	Last Name: <br><input id="lastName" type="text" /><br>
+	Age: <br><input id="age" type="number"/><br>
+	Phone Number: <br><input id="phoneNumber" type="number"/><br>
+	Address: <br><input id="address" type="text" /><br>
+
+<button onclick="idCard()" type="button">Submit</button>
+	
+</form>
+
+<div class="id_card">
+		<div class="info">
+		<img class="icon" src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+	
+	<div class="contact_details">
+		<p id="postFullName"></p>
+	<p id="postAge"></p>
+	<p id="postPhoneNumber"></p>
+	<p id="postAddress"></p>
+	</div>
+	</div> </div>
+
+
+<!-- 	<div id="idCard">
+
+
+
+</div> -->
+	
+	<script src="script.js"></script>
+  </body>  
+  </html>

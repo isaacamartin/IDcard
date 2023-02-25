@@ -1,0 +1,97 @@
+body {
+font-family:'Russo One', sans-serif;
+font-size:24px;
+background-color: rgb(19, 69, 19);
+color: rgb(0 255 200);
+}
+
+	h1 {
+		margin-bottom:20px;
+		text-align:center;
+        font-family: 'Press Start 2P', cursive;
+        font-size:32px;
+}
+
+.notice {
+  text-align: center;
+}
+
+	form {    position:relative;
+    left: 160px;
+      width: 520px;
+      margin:auto;
+	}
+       
+  button {  
+        box-shadow: 2px 2px 5px rgb(148 124 89);
+        margin-bottom: 20px;  
+        margin-top: 15px;  }
+
+
+
+      .id_card {
+border:2px solid aquamarine;
+border-radius:50px;
+margin:auto;
+background-color: rgba(255, 255, 255, 0.21);
+color: rgb(0 255 226);
+box-shadow: 10px 15px 40px #00ffac, -10px -10px 40px #00ffac;
+position:relative;
+width:520px;
+height:260px;
+background-image:url('./seamless-pattern-of-circuit-board-2370.png');
+background-image: 100px;
+background-repeat:repeat;
+}
+
+.info {
+  border-radius:50px;
+  background-color: rgba(0, 45, 30, 0.629);
+  color: rgb(0 255 226);
+  float: left; 
+  width:520px;
+  height:260px;
+  
+}
+
+/* .test_box {
+  
+border:2px solid aquamarine;
+border-radius:50px;
+margin:auto;
+background-color: rgba(255, 255, 255, 0.21);
+color: rgb(0 255 226);
+box-shadow: 10px 15px 40px #00ffac, -10px -10px 40px #00ffac;
+position:relative;
+width:520px;
+height:260px;
+background-image:url('./seamless-pattern-of-circuit-board-2370.png');
+background-repeat:repeat;
+} */
+
+
+.contact_details {
+        font-size: 25px;
+        position: absolute;
+        left:150px;
+        top: 25px;
+		
+      } 
+
+
+      .icon {
+		box-shadow: 3px 3px 10px #538172;
+		background-color: #00ffac;
+		width: 100px;
+		float:left;
+		margin-right:10px;
+		border-top-left-radius:45px;
+        }  
+
+  
+	  input  {
+      background-color: rgb(0 50 0);
+      color: rgb(250 255 100);
+      }
+ 
+   

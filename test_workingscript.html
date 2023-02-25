@@ -1,0 +1,74 @@
+<!DOCTYPE html>  
+  <html>  
+  <head>  
+    <meta charset="utf-8">
+    <title>T E S T </title>  
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>  
+
+  <body>    
+	
+  <h1>Let's Create an ID card!</h1>
+
+<!---------------FINAL PROJECT FORM------------------------>
+	<form>
+	First Name: <br><input id="firstName" type="text" /><br>
+	Last Name: <br><input id="lastName" type="text" /><br>
+	Age: <br><input id="age" type="number"/><br>
+	Phone Number: <br><input id="phoneNumber" type="number"/><br>
+	Address: <br><input id="address" type="text" /><br>
+
+<button onclick="idCard()" type="button">Submit</button>
+	
+</form>
+
+	<div id="idCard">
+	<p id="postFullName"></p>
+	<p id="postAge"></p>
+	<p id="postPhoneNumber"></p>
+	<p id="postAddress"></p>
+<img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+
+</div>
+	
+	<script>
+
+function idCard() {
+
+var firstName = document.getElementById("firstName").value;
+var lastName = document.getElementById("lastName").value;
+var address = document.getElementById("address").value;
+var age = document.getElementById("age").value;
+var age = parseInt(document.getElementById("age").value);
+var phoneNumber = document.getElementById("phoneNumber").value;
+var phoneNumber = parseInt(document.getElementById("phoneNumber").value);
+
+document.getElementById("postFullName").innerHTML = "Full Name: " + firstName + " " + lastName;
+document.getElementById("postAddress").innerHTML = "Address: " + address;
+
+
+var numberArray = []; {
+	numberArray.push(age, phoneNumber);
+for (var i = 0; i < numberArray.length; i++){
+
+if (numberArray[i] <= 100){
+
+	document.getElementById("postAge").innerHTML = "Age: " + age;
+}
+
+
+else if (numberArray[i] >= 100){
+
+	document.getElementById("postPhoneNumber").innerHTML = "Phone Number: " + phoneNumber;
+	}
+	
+  }
+
+}
+
+
+}	
+
+	</script>
+  </body>  
+  </html>
